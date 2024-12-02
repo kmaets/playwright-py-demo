@@ -1,0 +1,5 @@
+.pytest_cache/
+__pycache__/
+
+_venv-test.py
+.e2e/tests/test_example.py
