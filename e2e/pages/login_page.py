@@ -18,5 +18,5 @@ class LoginPage:
 		self.enter_password(password)
 		self.click_login()
 
-with sync_playwright() as playwright:
-    playwright.selectors.set_test_id_attribute('data-test')
+	def get_login_error_element(self):
+		return self.page.get_by_role('heading', level=3)
